@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+@font-face {
+    font-family:"fonde";
+    src: url(FontsFree-Net-fonde.ttf) format
+    ('opentype');
+}
+:root{
+    --primary-color:#6E59A4;
+    --secondary-color:#FFBB47;
+}
+body{
+    background-color: #FFF9F5;
+}
+.logo{
+    width: 22.4%;
+}
+
+.hamburguer{
+    width: 6.4%;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 85%;
+    margin-top:26px;
+    align-items: center;
+}
+
+.Titulo {
+    color: #19183A;
+    font-family: fonde;
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #19183A;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; 
+    letter-spacing: 1.8px;
+    margin: 69px 25.066666666667% 16px ;
+    width:255px;
+}
+
+.text{
+   color: #19183A;
+   margin: 0px 6.4% 30px 7.4666666666667%;
+   font-family: Poppins;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 28px; 
+   opacity: 0.5;
+}
