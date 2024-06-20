@@ -39,15 +39,45 @@ body{
     font-size: clamp(20px, 9.6vw, 277px);
     font-weight: 400;
     letter-spacing: 1.8px;
-    margin: 69px 25.066666666667% 16px ;
+    margin: 69px 25.06% 16px ;
     width: 255px;
 }
 
 .text{
+    font-family: Poppins;
+}
+
+#text1{
    color: #19183A;
-   margin: 0px 6.4% 30px 7.4666666666667%;
-   font-family: Poppins;
+   margin: 0px 12.5% 30px 7.46%;
    font-size: 16px;
    font-weight: 400;
    opacity: 0.5;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    width: 145px;
+    margin: 0px 53.8% 0px 7.46%;
+    height: 51px;
+    background: #FFBB47;
+    border-radius: 30px;
+}
+
+#text2{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 15px 15px 15px 20px ;
+}
+
+.seta{
+    height: 20px;
+    width: 20px;
+    padding: 15px 0px 16px 0px;
+}
+
+.Produto{
+    background-image: url(/Imagens/curology-yUDtOOatvxY-unsplash\ 1.png);
 }
