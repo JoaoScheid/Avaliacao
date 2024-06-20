@@ -36,15 +36,11 @@ body{
 .Titulo {
     color: #19183A;
     font-family: fonde;
-    -webkit-text-stroke-width: 1;
-    -webkit-text-stroke-color: #19183A;
-    font-size: 36px;
-    font-style: normal;
+    font-size: clamp(20px, 9.6vw, 277px);
     font-weight: 400;
-    line-height: 48px; 
     letter-spacing: 1.8px;
     margin: 69px 25.066666666667% 16px ;
-    width:255px;
+    width: 255px;
 }
 
 .text{
@@ -52,8 +48,6 @@ body{
    margin: 0px 6.4% 30px 7.4666666666667%;
    font-family: Poppins;
    font-size: 16px;
-   font-style: normal;
    font-weight: 400;
-   line-height: 28px; 
    opacity: 0.5;
 }
