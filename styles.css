@@ -78,6 +78,21 @@ body{
     padding: 15px 0px 16px 0px;
 }
 
-.Produto{
-    background-image: url(/Imagens/curology-yUDtOOatvxY-unsplash\ 1.png);
+.ProdutoFoto{
+    margin-top: 43px ;
+    width: 100%;
+}
+
+.Tracejado{
+    margin-top:-400px;
+    margin-left:28.5%;
+}
+
+.quadradoRoxo{
+    position: relative;
+    margin-left: 205px;
+    width: 41.86%;
+    height: 147px;
+    border-radius: 10px;
+    background: #6E59A4;
 }
