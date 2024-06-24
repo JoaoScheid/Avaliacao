@@ -18,11 +18,14 @@ body{
 .logo{
     width: 22.4%;
 }
-
+main{
+    font-family: Poppins;
+    font-weight: 400;
+    color: #FFF;
+}
 .hamburguer{
     width: 6.4%;
 }
-
 .head{
     display: flex;
     justify-content: space-between;
@@ -37,21 +40,15 @@ body{
     color: #19183A;
     font-family: fonde;
     font-size: clamp(20px, 9.6vw, 277px);
-    font-weight: 400;
     letter-spacing: 1.8px;
     margin: 69px 25.06% 16px ;
     width: 255px;
-}
-
-.text{
-    font-family: Poppins;
 }
 
 #text1{
    color: #19183A;
    margin: 0px 12.5% 30px 7.46%;
    font-size: 16px;
-   font-weight: 400;
    opacity: 0.5;
 }
 
@@ -66,9 +63,7 @@ body{
 }
 
 #text2{
-    color: #FFF;
     font-size: 14px;
-    font-weight: 400;
     padding: 15px 15px 15px 20px ;
 }
 
@@ -104,6 +99,7 @@ body{
 
 .Informacoes{
     position: relative;
+    margin: 0px 4.26% 0px 4% ;
     width: 344px;
     height: 196px;
     border-radius: 10px;
@@ -121,6 +117,16 @@ body{
     padding: 33px 66.24% 0px 21.01%;
 }
 
-.text3{
+#text3{
     font-size: 14px;
+    opacity: 0.5;
+    line-height: 22px;
+    padding: 12px 45.22% 0px 14.01%;
 }
+
+.SubTitulo{
+    font-size: 20px;
+    line-height: 22px;
+    padding: 4px 28.6% 0px 14.01%;
+}   
+
