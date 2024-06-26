@@ -40,15 +40,26 @@ main{
     font-family: fonde;
     font-size: clamp(20px, 9.6vw, 277px);
     letter-spacing: 1.8px;
-    margin: 69px 25.06% 16px ;
-    width: 255px;
+   
 }
 
+#Titulo1{
+     margin: 69px 25.06% 16px ;
+     width: 255px;
+}
+
+#Titulo2{
+    margin: 120px 4.53% 48px 6.93%;
+}
+.text{
+    color: #19183A;
+    font-size: 16px;
+    opacity: 0.5;
+}
 #text1{
-   color: #19183A;
+  
    margin: 0px 12.5% 30px 7.46%;
-   font-size: 16px;
-   opacity: 0.5;
+
 }
 
 .button{
@@ -61,7 +72,7 @@ main{
     border-radius: 30px;
 }
 
-#text2{
+.text2{
     font-size: 14px;
     padding: 15px 15px 15px 20px ;
 }
@@ -81,8 +92,8 @@ main{
 .Tracejado{
     display: flex;
     margin-top:-400px;
-    margin-left:28.26%;
-    width:25.35% ;
+    margin-left:105px;
+    width:106px ;
     height: 197px;
 }
 
@@ -97,6 +108,9 @@ main{
 }
 
 .Informacoes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     position: relative;
     margin: 0px 4.26% 0px 4% ;
     width: 344px;
@@ -104,6 +118,16 @@ main{
     border-radius: 10px;
     margin-top: 215px;
     background: #19183A;
+}
+
+.Coluna1{
+    display: flex;
+    flex-direction: column;
+}
+
+.Coluna2{
+    display: flex;
+    flex-direction: column;
 }
 
 .bola{
@@ -117,6 +141,7 @@ main{
 }
 
 #text3{
+    color: #FFF;
     font-size: 14px;
     opacity: 0.5;
     line-height: 22px;
@@ -142,6 +167,9 @@ main{
     display: flex;
     flex-direction: row;
 }
+.linha2{
+    display: flex;
+}
 
 .tituloInformacoes{
     color: #FFF; 
@@ -154,3 +182,8 @@ main{
 #titulo1{
     padding: 32px 56.68% 0px 0px;
 }
+
+#text4{
+    margin:48px 13.86% 0px 6.93%;
+}
+
