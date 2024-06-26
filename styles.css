@@ -38,8 +38,11 @@ main{
 .Titulo {
     color: #19183A;
     font-family: fonde;
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #19183A;
     font-size: clamp(20px, 9.6vw, 277px);
     letter-spacing: 1.8px;
+    font-weight: 400;
    
 }
 
@@ -66,10 +69,13 @@ main{
     display: flex;
     flex-direction: row;
     width: 145px;
-    margin: 0px 53.8% 0px 7.46%;
     height: 51px;
     background: #FFBB47;
     border-radius: 30px;
+}
+
+#botao1{
+    margin: 0px 53.8% 0px 7.46%;
 }
 
 .text2{
@@ -113,7 +119,7 @@ main{
     flex-wrap: wrap;
     position: relative;
     margin: 0px 4.26% 0px 4% ;
-    width: 344px;
+    width: 91.73%;
     height: 196px;
     border-radius: 10px;
     margin-top: 215px;
@@ -157,7 +163,11 @@ main{
 .bola2{
     width: 52px;
     height:52px;
-    padding: 35px 4.65% 0px 8.72%;
+    padding: 35px 16% 0px 30%;
+}
+
+.bola3{
+    padding: 23px 16% 0px 30%;
 }
 
 .Linha1{
@@ -165,7 +175,9 @@ main{
 }
 .secao1{
     display: flex;
-    flex-direction: row;
+}
+.secao2{
+    display: flex;
 }
 .linha2{
     display: flex;
@@ -187,3 +199,39 @@ main{
     margin:48px 13.86% 0px 6.93%;
 }
 
+#botao2{
+    margin: 30px 54.4% 0px 6.93%;
+}
+
+.ProdutoFoto2{
+    width: 87.73%;
+    margin-top: -20.28px;
+    z-index: -1;
+}
+
+.quadradoRoxo2{
+    height: 11.2vw;
+    width: 11.2vw;
+    border-radius: 3.341px;
+    background: #C0B5DE;
+}
+
+.Produto2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pos {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 9.58px;
+}
+
+.quadradoRoxo3{
+    width: 5.867vw;
+    height: 5.867vw;
+    border-radius: 3.341px;
+    background: #6E59A4;
+}
