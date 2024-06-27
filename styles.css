@@ -234,7 +234,7 @@ main{
     display: flex;
     width: 100%;
     justify-content: flex-end;
-    margin-right: 5.5%;
+    margin-right: 6%;
 }
 
 .quadradoRoxo3{
@@ -249,4 +249,22 @@ main{
     width:100%;
     justify-content: flex-start;
     margin: -10px 0px 0px 8% ;
+}
+
+.quadradoAmarelo{
+    width: 172px;
+    height: 60px;
+    border-radius: 6.681px;
+    background: #FFBB47;
+}
+
+#pos3{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.Produto2 .linha1{
+    display: flex;
+    flex: row;
 }
