@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-weight: 400;
 }
 @font-face {
     font-family:"fonde";
@@ -19,7 +20,6 @@ body{
 }
 main{
     font-family: Poppins;
-    font-weight: 400;
     color: #FFF;
 }
 .hamburguer{
@@ -42,7 +42,6 @@ main{
     -webkit-text-stroke-color: #19183A;
     font-size: clamp(20px, 9.6vw, 200px);
     letter-spacing: 1.8px;
-    font-weight: 400;
    
 }
 
@@ -105,8 +104,7 @@ main{
 
 .quadradoRoxo{
     position: relative;
-    margin-left: 202px;
-    margin-top:-270px ;
+    margin: -270px 33px 0px 202px;
     width: 41.8%;
     height: 147px;
     border-radius: 10px;
@@ -146,7 +144,6 @@ main{
     color: #FFF;
     font-family: Poppins;
     font-size: 12px;
-    font-weight: 400;
     line-height: 22px;
     opacity: 0.5;
 }
@@ -194,7 +191,6 @@ main{
 .tituloInformacoes{
     color: #FFF; 
     font-size: 22px;
-    font-weight: 400;
     line-height: 36px; 
     letter-spacing: 0.22px;
 }
@@ -267,4 +263,69 @@ main{
 .Produto2 .linha1{
     display: flex;
     flex: row;
+}
+
+.Produto1{
+    width: 73.86%;
+    height: 321px;
+    border-radius: 10px;
+    background: #C0B5DE;
+}
+
+#primeiro{
+    margin: 371px 46px 0px 52px;
+}
+
+.cadeadoRoxo{
+    width: 11.55%;
+    padding: 48px 11.91% 28px 10.83%;
+}
+.fundoProduto{
+    height: 333px;
+    width: 66.24%;
+    margin: -225px 0px 0px 0px;
+}
+
+.teste{
+    display: flex;
+}
+
+ #PrimeiroTexto{
+    width: 75.45%;
+    padding: 0px 13.71% 0px 10.83%;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+#PrimeiroPreco{
+    font-size: 36px;
+    line-height: 28px; 
+    padding: 26px 54.15% 38px 10.83%;
+}
+
+.buttonBuyMe{
+    margin: 0px 57.03% 35px 10.83%;
+    width: 89px;
+    height: 32px;
+    font-size: 12px;
+    line-height: 28px;
+    border-radius: 30px;
+    background: #FFBB47;
+}
+
+.textBuyMe{
+    width: 45px;
+    height: 28px;
+    padding: 2px 22px 2px 22px;
+}
+
+#segundo{
+    margin: 278px 46px 0px 55px;
+}
+
+#SegundoTexto{
+    width:79.78%;
+    height: 56px;
+    font-size: 20px;
+    padding: 0px 11.19% 0px 9.02% ;
 }
