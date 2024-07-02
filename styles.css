@@ -12,10 +12,12 @@
     --primary-color:#6E59A4;
     --secondary-color:#FFBB47;
 }
-body{
+.Cor{
+    height: 2800px;
     background-color: #FFF9F5;
 }
 .logo{
+    margin-top: 26px;
     width: 22.4%;
 }
 main{
@@ -23,6 +25,7 @@ main{
     color: #FFF;
 }
 .hamburguer{
+    margin-top: 31px;
     width: 6.4%;
 }
 .head{
@@ -31,7 +34,6 @@ main{
     flex-direction: row;
     margin: 0 auto;
     width: 85%;
-    margin-top:26px;
     align-items: center;
 }
 
@@ -105,7 +107,7 @@ main{
 .quadradoRoxo{
     position: relative;
     margin: -270px 33px 0px 202px;
-    width: 41.8%;
+    width: 157px;
     height: 147px;
     border-radius: 10px;
     background: #6E59A4;
@@ -332,4 +334,21 @@ main{
 
 #terceiro{
     margin-top: 200px;
+}
+
+.Cor2{
+margin-top:1000px ;
+height: 1238px;
+border-radius: 10px;
+background: #6E59A4;
+}
+
+.TituloTextos{
+    color: #FFF;
+    width: ;
+    font-family: fonde;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px; 
+    letter-spacing: 1.8px;
 }
