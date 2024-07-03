@@ -24,6 +24,11 @@ main{
     font-family: Poppins;
     color: #FFF;
 }
+
+section{
+    font-family: Poppins;
+    color: #FFF
+}
 .hamburguer{
     margin-top: 31px;
     width: 6.4%;
@@ -345,10 +350,27 @@ background: #6E59A4;
 
 .TituloTextos{
     color: #FFF;
-    width: ;
+    width: 68.26%;
     font-family: fonde;
     font-size: 36px;
     font-weight: 400;
     line-height: 48px; 
     letter-spacing: 1.8px;
+}
+
+.Separacao{
+    display: flex;
+    gap:25.75px;
+}
+
+#Sub1{
+    width: 62.13%;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px; 
+}
+
+#TextTop1{
+    width: 225px;
+    line-height: 26px; 
 }
