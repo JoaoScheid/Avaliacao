@@ -49,15 +49,14 @@ section{
     -webkit-text-stroke-color: #19183A;
     font-family: fonde;
     font-size: 36px;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 600;
     line-height: 48px; /* 133.333% */
     letter-spacing: 1.8px;
 }
 
 #Titulo1{
-     margin: 69px 25.06% 16px  ;
-     width: 255px;
+     margin: 69px 25.06% 16px 6.93% ;
+     width: 68%;
 }
 
 #Titulo2{
@@ -352,8 +351,9 @@ background-color: #6E59A4;
 }
 
 .TituloTextos{
+    padding: 53px 24.8% 0px 6.93%;
     color: #FFF;
-    width: 68.26%;
+    width: 67.56%;
     font-family: fonde;
     font-size: 36px;
     font-weight: 600;
