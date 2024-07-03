@@ -3,11 +3,12 @@
     padding: 0;
     font-weight: 400;
 }
+
 @font-face {
     font-family:"fonde";
-    src: url(FontsFree-Net-fonde.ttf) format
-    ('opentype');
+    src: url(FontsFree-Net-fonde.ttf);
 }
+
 :root{
     --primary-color:#6E59A4;
     --secondary-color:#FFBB47;
@@ -44,16 +45,18 @@ section{
 
 .Titulo {
     color: #19183A;
-    font-family: fonde;
     -webkit-text-stroke-width: 1;
     -webkit-text-stroke-color: #19183A;
-    font-size: clamp(20px, 9.6vw, 200px);
+    font-family: fonde;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 48px; /* 133.333% */
     letter-spacing: 1.8px;
-   
 }
 
 #Titulo1{
-     margin: 69px 25.06% 16px ;
+     margin: 69px 25.06% 16px  ;
      width: 255px;
 }
 
@@ -345,7 +348,7 @@ section{
 margin-top:1000px ;
 height: 1238px;
 border-radius: 10px;
-background: #6E59A4;
+background-color: #6E59A4;
 }
 
 .TituloTextos{
@@ -353,7 +356,7 @@ background: #6E59A4;
     width: 68.26%;
     font-family: fonde;
     font-size: 36px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 48px; 
     letter-spacing: 1.8px;
 }
@@ -361,16 +364,40 @@ background: #6E59A4;
 .Separacao{
     display: flex;
     gap:25.75px;
+    margin: 36px 0px 0px 26px ;
 }
 
-#Sub1{
-    width: 62.13%;
+#Certo1{
+    padding-bottom: 30px;
+}
+
+.SubTituloTopicos{
     font-size: 16px;
     font-weight: 700;
     line-height: 28px; 
 }
+#Sub1{
+    width: 67.13%;
+}
+
+.TextoTopicos{
+    font-size: 14px;
+    width: 60%;
+    line-height: 26px; 
+    opacity: 0.6;
+}
 
 #TextTop1{
-    width: 225px;
-    line-height: 26px; 
+    margin: -8px 82px 0px 68px;
 }
+
+.Separacao2{
+    display: flex;
+    gap: 25.75px;
+}
+
+#Sub2{
+    
+   
+}
+
