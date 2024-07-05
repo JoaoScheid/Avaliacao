@@ -458,5 +458,45 @@ background-color: #6E59A4;
     margin-top: 62px;
 }
 
+.imagem3{
+    margin: 16.26% 12.53% 0px 11.2%;
+    width: 76.26%;
+    height: 97.33%;
+}
+
+#Titulo4{
+    margin: 71.45px 0px 0px 6.66%;
+}
+
+#text7{
+    margin: 16px 4.8% 0px 6.66%;
+}
 
 
+.topicoWrap1{
+    display: flex;
+    gap: 18px;
+}
+
+.topicoWrap2{
+    display: flex;
+    gap: 18px;
+}
+
+.LinhaWrap{
+    display: flex;
+    gap: 34px;
+    margin-bottom: 16px;
+}
+
+#LinhaWrap2{
+    gap: 30px;
+}
+
+#LinhaWrap3{
+    gap: 38px;
+}
+
+.TopicosWrap{
+    margin: 16px 21.06% 0px 6.66%;
+}
