@@ -533,5 +533,52 @@ background-color: #6E59A4;
 .FotoSecao8{
     margin-top: -20px;
     width: 100%;
+    margin-bottom: 84.77px;
 }
 
+footer{
+    background-color: #19183A;
+    width: 100%;
+    font-family: Poppins;
+    color: #FFF;
+}
+
+.LogoFooter{
+    margin: 50px 59.2% 16px 6.66%;
+}
+
+.textFooter{
+font-size: 14px;
+line-height: 26px;
+opacity: 0.5;
+}
+
+#textFooter1{
+    margin: 0px 9.6% 16px 6.66%;
+}
+
+.TittleFooter{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footer2{
+    display: flex;
+    gap: 72px;
+}
+
+.SubFooter{
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.textList{
+    font-size: 14px;
+    opacity: 0.3;
+}
+
+.productSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
