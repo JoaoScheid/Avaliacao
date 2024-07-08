@@ -19,7 +19,7 @@
 }
 .logo{
     margin-top: 26px;
-    width: 22.4%;
+    width: 84px;
 }
 main{
     font-family: Poppins;
@@ -82,8 +82,44 @@ section{
     border-radius: 30px;
 }
 
+.PrimeiraImagem{
+    width: 100%;
+   margin-bottom: 100px;
+   z-index: 1;
+   position: relative;
+   height: 426px;
+}
+
+.quadradoRoxo{
+    width: 157px;
+    height: 147px;
+    border-radius: 10px;
+    background: #6E59A4;
+    margin:0px 3.46% -120px 54.66%;
+    position: relative;
+    z-index: 3;
+}
+.textQuadradoRoxo2{
+    font-size: 20px;
+}
+
+.textQuadradoRoxo{
+    font-size: 14px;
+    opacity: 0.5;
+}
+.BolaCadeado{
+    padding-top: 22px;
+}
+.elementos{
+    margin: 0px 28.66% 0px 14.01% ;
+}
 #botao1{
     margin: 0px 53.8% 0px 7.46%;
+}
+.LinhaTracejada{
+    position: relative;
+    z-index: 2;
+    margin: 0px 1% -235px 28.6%;
 }
 
 .text2{
@@ -95,70 +131,6 @@ section{
     height: 20px;
     width: 20px;
     padding: 15px 0px 16px 0px;
-}
-
-.ProdutoFoto{
-    margin-top: 43px;
-    width: 100%;
-    height: 426px;
-}
-
-.Tracejado{
-    display: flex;
-    margin-top:-400px;
-    margin-left:105px;
-    width:106px ;
-    height: 197px;
-}
-
-.quadradoRoxo{
-    position: relative;
-    margin: -270px 33px 0px 202px;
-    width: 157px;
-    height: 147px;
-    border-radius: 10px;
-    background: #6E59A4;
-}
-
-.Informacoes{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    position: relative;
-    margin: 0px 4.26% 0px 4% ;
-    width: 91.73%;
-    height: 196px;
-    border-radius: 10px;
-    margin-top: 215px;
-    background: #19183A;
-}
-
-.Coluna1{
-    display: flex;
-    flex-direction: column;
-}
-
-.Coluna2{
-    margin: 36px 0px 0px 23.25%;
-    display: flex;
-    flex-direction: column;
-}
-
-.bola{
-    position: absolute;
-    padding: 22px 59.2% 0% 14.01%;
-}
-
-.textoInformacoes{
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 12px;
-    line-height: 22px;
-    opacity: 0.5;
-}
-.cadeado{
-    position: relative;
-    padding: 33px 66.24% 0px 21.01%;
 }
 
 #text3{
@@ -175,20 +147,10 @@ section{
     padding: 4px 28.6% 0px 14.01%;
 }   
 
-.bola2{
-    width: 52px;
-    height:52px;
-    padding: 35px 16% 0px 30%;
-}
-
-#botao2{
-    margin: 30px 54.4% 67px 6.93%;
-}
 .ImageProduto2{
     width: 93.33%;
     margin: 0px 4.53% 0px 2.4%;
 }
-
 
 .Linha1{
     display: flex;
@@ -228,52 +190,13 @@ section{
     margin: 30px 1.33% 0px 0px;
 }
 
-.ProdutoFoto2{
-    width: 87.73%;
-    margin-top: -20.28px;
-    z-index: -1;
-}
-
-.quadradoRoxo2{
-    height: 11.2vw;
-    width: 11.2vw;
-    border-radius: 3.341px;
-    background: #C0B5DE;
-}
-
 .Produto2 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#pos {
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-    margin:30px 0px 0px 33%;
-}
 
-.quadradoRoxo3{
-    width: 5.867vw;
-    height: 5.867vw;
-    border-radius: 3.341px;
-    background: #6E59A4;
-}
-
-#pos2{
-    display: flex;
-    width:100%;
-    justify-content: flex-start;
-    margin: -10px 0px 0px 8% ;
-}
-
-.quadradoAmarelo{
-    width: 172px;
-    height: 60px;
-    border-radius: 6.681px;
-    background: #FFBB47;
-}
 
 #pos3{
     display: flex;
@@ -287,7 +210,7 @@ section{
 }
 
 .Produto1{
-    width: 73.86%;
+    width: 276px;
     height: 321px;
     border-radius: 10px;
     background: #C0B5DE;
@@ -352,7 +275,7 @@ section{
 }
 
 #terceiro{
-    margin-top: 200px;
+    margin:290px 12.26% 136px 13.33%;
 }
 
 .Cor2{
