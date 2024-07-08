@@ -558,6 +558,7 @@ opacity: 0.5;
 }
 
 .TittleFooter{
+    margin-bottom: 16px;
     font-size: 14px;
     font-weight: 700;
 }
@@ -565,6 +566,7 @@ opacity: 0.5;
 .footer2{
     display: flex;
     gap: 72px;
+    margin: 0px 10.4% 30px 6.4%;
 }
 
 .SubFooter{
@@ -580,5 +582,72 @@ opacity: 0.5;
 .productSection{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+}
+
+#textList4{
+    margin-bottom: 16px;
+}
+
+#textList5{
+    margin-bottom: 36px
+}
+
+#textList6{
+    margin-bottom: 23px;
+}
+
+#TittleFooter4{
+    margin-bottom: 16px;
+}
+
+.TextSubscribe{
+    font-size: 14px;
+}
+
+.Email{
+    width: 203px;
+    height: 46px;
+    border-radius: 30px;
+    background: #FFF;
+}
+
+.TextEmail{
+    color: #000;
+    font-size: 14px;
+    opacity: 0.3;
+    padding: 13px 84px 12px 20px;
+}
+
+.Join{
+    width: 110px;
+    height: 46px;
+    background: #FFBB47;
+    border-radius: 30px;
+}
+
+#TextJoin{
+    padding: 13px 40px 12px 41px;
+}
+
+.Buttons{
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.footer3{
+    margin: 0px 5.6% 38px 6.66%;
+}
+
+.LinhaFooter{
+    width: 94.4%;
+    margin: 0px 2.93% 16px 2.93%;
+}
+
+.Referencias{
+font-size: 10px;
+letter-spacing: 0.2px;
+opacity: 0.5;
+margin: 0px 25.33% 0px 25.33%;
+padding-bottom: 20px;
 }
