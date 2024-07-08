@@ -181,6 +181,13 @@ section{
     padding: 35px 16% 0px 30%;
 }
 
+#botao2{
+    margin: 30px 54.4% 67px 6.93%;
+}
+.ImageProduto2{
+    width: 93.33%;
+    margin: 0px 4.53% 0px 2.4%;
+}
 
 
 .Linha1{
@@ -214,6 +221,11 @@ section{
 
 #botao2{
     margin: 30px 54.4% 0px 6.93%;
+}
+
+.foto{
+    width: 98.66%;
+    margin: 30px 1.33% 0px 0px;
 }
 
 .ProdutoFoto2{
@@ -427,12 +439,12 @@ background-color: #6E59A4;
 }
 
 .ProdutoFoto3{
-    z-index: 1;
-    padding: 15.2px 15.12% 0px 15.12%;
+    width:77.6%;
+    padding: 15.2px 15.12% 0px 7.2%;
 }
 
 #Titulo3{
-    margin: 466px 11.46% 0px 5.86%;
+    margin: 120px 11.46% 0px 5.86%;
 }
 
 #text6{
@@ -459,8 +471,8 @@ background-color: #6E59A4;
 }
 
 .imagem3{
-    margin: 16.26% 12.53% 0px 11.2%;
-    width: 76.26%;
+    margin: 16.26% 1.6% 0px 6.93%;
+    width: 91.46%;
     height: 97.33%;
 }
 
@@ -502,7 +514,7 @@ background-color: #6E59A4;
 }
 
 .imagemSecao7{
-    width: 92.26%;
+    width: 96.26%;
     margin: 76px 4% 0px 4%;
 }
 
