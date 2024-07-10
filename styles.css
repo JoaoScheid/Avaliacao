@@ -124,6 +124,38 @@ section{
     margin: 0px 1% -235px 28.6%;
 }
 
+.InfoRoxa{
+    width: 344px;
+    position: relative;
+    z-index: 4;
+    height: 196px;
+    border-radius: 10px;
+    background: #19183A;
+    margin: -220px 4.26% 0px 4.26%;
+}
+.secao1Info{
+    display: flex;
+    gap: 16px;
+}
+.textInfo{
+    color: #FFF;
+    font-size: 12px;
+    line-height: 22px;
+    opacity: 0.5;
+}
+.bolaCaixa{
+    width: 52px;
+    height: 52px;
+}
+.TituloInfoRoxa{
+    color: #FFF;
+-webkit-text-stroke-width: 0.30000001192092896;
+-webkit-text-stroke-color: #000;
+font-size: 22px;
+line-height: 36px; 
+letter-spacing: 0.22px;
+}
+
 .text2{
     font-size: 14px;
     padding: 15px 15px 15px 20px ;
@@ -230,6 +262,9 @@ section{
     height: 333px;
     width: 66.24%;
     margin: -225px 0px 0px 0px;
+}
+.posicaoBanner{
+    display: flex;
 }
 
 .teste{
@@ -590,6 +625,8 @@ opacity: 0.5;
 }
 
 .cadeadoBanner{
+    width: 28px;
+    height: 28px;
     padding: 15.37px 12.46% 0px 9.70% ;
 }
 
