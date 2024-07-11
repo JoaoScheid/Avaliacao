@@ -73,6 +73,8 @@ section{
 
 }
 
+
+
 .button{
     display: flex;
     flex-direction: row;
@@ -119,13 +121,13 @@ section{
 .LinhaTracejada{
     position: relative;
     z-index: 2;
-    width: 28.26%;
+    width: 30.26%;
     height: 197px;
-    margin: 0px 1% -235px 28.6%;
+    margin: 0px 1% -235px 27.4%;
 }
 
 .InfoRoxa{
-    width: 344px;
+    width: 91.73%;
     position: relative;
     z-index: 4;
     height: 196px;
@@ -143,7 +145,7 @@ section{
     line-height: 22px;
     opacity: 0.5;
 }
-.bolaCaixa{
+.bola{
     width: 52px;
     height: 52px;
 }
@@ -186,8 +188,20 @@ letter-spacing: 0.22px;
     margin: 0px 4.53% 0px 2.4%;
 }
 
-.Linha1{
+.linha1{
     display: flex;
+    gap: 30px;
+}
+
+.linha2{
+    display: flex;
+    gap: 22px;
+    margin-top: 19px;
+}
+
+.posInfoRoxa{
+    justify-content: center;
+    padding: 35px 8.72% 0px 8.72%;
 }
 .secao1{
     display: flex;
@@ -196,9 +210,7 @@ letter-spacing: 0.22px;
     display: flex;
     margin: 23px px 0px 0px;
 }
-.linha2{
-    display: flex;
-}
+
 
 .tituloInformacoes{
     color: #FFF; 
@@ -258,6 +270,22 @@ letter-spacing: 0.22px;
     width: 11.55%;
     padding: 48px 11.91% 28px 10.83%;
 }
+
+.textBanner1{
+font-size: 10px;
+line-height: 14.699px;
+opacity: 0.8;
+}
+
+.textBanner2{
+
+font-size: 14px;
+line-height: 14.699px;
+}
+
+.textsBanner{
+    padding-top: 13.36px;
+}
 .fundoProduto{
     height: 333px;
     width: 66.24%;
@@ -266,7 +294,16 @@ letter-spacing: 0.22px;
 .posicaoBanner{
     display: flex;
 }
-
+.LinhaCurology{
+margin-top: -216px;
+height: 208px;
+}
+.posicaoCurology3{
+    display: flex;
+    height: 235px;
+    width: 62.66%;
+    margin: 0px 4.53% 0px 19%;
+}
 .teste{
     display: flex;
 }
@@ -632,6 +669,10 @@ opacity: 0.5;
 
 #banner1{
     margin: 67px 51.73% -63px 2.4%; 
+}
+
+#banner2{
+    margin: -40px ;
 }
 .Referencias{
 font-size: 10px;
