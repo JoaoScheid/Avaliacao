@@ -1,40 +1,45 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-weight: 400;
 }
 
 @font-face {
-    font-family:"fonde";
+    font-family: "fonde";
     src: url(FontsFree-Net-fonde.ttf);
 }
 
-:root{
-    --primary-color:#6E59A4;
-    --secondary-color:#FFBB47;
+:root {
+    --primary-color: #6E59A4;
+    --secondary-color: #FFBB47;
 }
-.Cor{
+
+.Cor {
     height: 2800px;
     background-color: #FFF9F5;
 }
-.logo{
+
+.logo {
     margin-top: 26px;
     width: 84px;
 }
-main{
+
+main {
     font-family: Poppins;
     color: #FFF;
 }
 
-section{
+section {
     font-family: Poppins;
     color: #FFF
 }
-.hamburguer{
+
+.hamburguer {
     margin-top: 31px;
     width: 6.4%;
 }
-.head{
+
+.head {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -50,32 +55,35 @@ section{
     font-family: fonde;
     font-size: 36px;
     font-weight: 600;
-    line-height: 48px; /* 133.333% */
+    line-height: 48px;
+    /* 133.333% */
     letter-spacing: 1.8px;
 }
 
-#Titulo1{
-     margin: 69px 25.06% 16px 6.93% ;
-     width: 68%;
+#Titulo1 {
+    margin: 69px 25.06% 16px 6.93%;
+    width: 68%;
 }
 
-#Titulo2{
+#Titulo2 {
     margin: 120px 4.53% 48px 6.93%;
 }
-.text{
+
+.text {
     color: #19183A;
     font-size: 16px;
     opacity: 0.5;
 }
-#text1{
-  
-   margin: 0px 12.5% 30px 7.46%;
+
+#text1 {
+
+    margin: 0px 12.5% 30px 7.46%;
 
 }
 
 
 
-.button{
+.button {
     display: flex;
     flex-direction: row;
     width: 145px;
@@ -84,41 +92,46 @@ section{
     border-radius: 30px;
 }
 
-.PrimeiraImagem{
+.PrimeiraImagem {
     width: 100%;
-   margin-bottom: 100px;
-   z-index: 1;
-   position: relative;
-   height: 426px;
+    margin-bottom: 100px;
+    z-index: 1;
+    position: relative;
+    height: 426px;
 }
 
-.quadradoRoxo{
+.quadradoRoxo {
     width: 157px;
     height: 147px;
     border-radius: 10px;
     background: #6E59A4;
-    margin:0px 3.46% -120px 54.66%;
+    margin: 0px 3.46% -120px 54.66%;
     position: relative;
     z-index: 3;
 }
-.textQuadradoRoxo2{
+
+.textQuadradoRoxo2 {
     font-size: 20px;
 }
 
-.textQuadradoRoxo{
+.textQuadradoRoxo {
     font-size: 14px;
     opacity: 0.5;
 }
-.BolaCadeado{
+
+.BolaCadeado {
     padding-top: 22px;
 }
-.elementos{
-    margin: 0px 28.66% 0px 14.01% ;
+
+.elementos {
+    margin: 0px 28.66% 0px 14.01%;
 }
-#botao1{
+
+#botao1 {
     margin: 0px 53.8% 0px 7.46%;
 }
-.LinhaTracejada{
+
+.LinhaTracejada {
     position: relative;
     z-index: 2;
     width: 30.26%;
@@ -126,7 +139,7 @@ section{
     margin: 0px 1% -235px 27.4%;
 }
 
-.InfoRoxa{
+.InfoRoxa {
     width: 91.73%;
     position: relative;
     z-index: 4;
@@ -135,41 +148,54 @@ section{
     background: #19183A;
     margin: -220px 4.26% 0px 4.26%;
 }
-.secao1Info{
+
+.secao1Info {
     display: flex;
     gap: 16px;
 }
-.textInfo{
+
+.textInfo {
     color: #FFF;
     font-size: 12px;
     line-height: 22px;
     opacity: 0.5;
 }
-.bola{
+
+.bola {
     width: 52px;
     height: 52px;
 }
-.TituloInfoRoxa{
+
+.TituloInfoRoxa {
     color: #FFF;
--webkit-text-stroke-width: 0.30000001192092896;
--webkit-text-stroke-color: #000;
-font-size: 22px;
-line-height: 36px; 
-letter-spacing: 0.22px;
+    -webkit-text-stroke-width: 0.30000001192092896;
+    -webkit-text-stroke-color: #000;
+    font-size: 22px;
+    line-height: 36px;
+    letter-spacing: 0.22px;
 }
 
-.text2{
+.text2 {
     font-size: 14px;
-    padding: 15px 15px 15px 20px ;
+    padding: 15px 15px 15px 20px;
 }
 
-.seta{
+.linhaTracejada2{
+    margin: 30px 0px 0px 181px;
+}
+
+.bannerLinha{
+    position: relative;
+    margin: 0px 39.73% -230px 0%;
+}
+
+.seta {
     height: 20px;
     width: 20px;
     padding: 15px 0px 16px 0px;
 }
 
-#text3{
+#text3 {
     color: #FFF;
     font-size: 14px;
     opacity: 0.5;
@@ -177,61 +203,63 @@ letter-spacing: 0.22px;
     padding: 12px 45.22% 0px 14.01%;
 }
 
-.SubTitulo{
+.SubTitulo {
     font-size: 20px;
     line-height: 22px;
     padding: 4px 28.6% 0px 14.01%;
-}   
-
-.ImageProduto2{
-    width: 93.33%;
-    margin: 0px 4.53% 0px 2.4%;
 }
 
-.linha1{
+.ImageProduto2 {
+    width: 93.33%;
+    margin: 0px 0% 0px 4.4%;
+}
+
+.linha1 {
     display: flex;
     gap: 30px;
 }
 
-.linha2{
+.linha2 {
     display: flex;
     gap: 22px;
     margin-top: 19px;
 }
 
-.posInfoRoxa{
+.posInfoRoxa {
     justify-content: center;
     padding: 35px 8.72% 0px 8.72%;
 }
-.secao1{
+
+.secao1 {
     display: flex;
 }
-.secao2{
+
+.secao2 {
     display: flex;
     margin: 23px px 0px 0px;
 }
 
 
-.tituloInformacoes{
-    color: #FFF; 
+.tituloInformacoes {
+    color: #FFF;
     font-size: 22px;
-    line-height: 36px; 
+    line-height: 36px;
     letter-spacing: 0.22px;
 }
 
-#titulo1{
+#titulo1 {
     padding: 32px 56.68% 0px 0px;
 }
 
-#text4{
-    margin:48px 13.86% 0px 6.93%;
+#text4 {
+    margin: 48px 13.86% 0px 6.93%;
 }
 
-#botao2{
+#botao2 {
     margin: 30px 54.4% 0px 6.93%;
 }
 
-.foto{
+.foto {
     width: 98.66%;
     margin: 30px 1.33% 0px 0px;
 }
@@ -244,84 +272,91 @@ letter-spacing: 0.22px;
 
 
 
-#pos3{
+#pos3 {
     display: flex;
     width: 100%;
     justify-content: flex-start;
 }
 
-.Produto2 .linha1{
+.Produto2 .linha1 {
     display: flex;
     flex: row;
 }
 
-.Produto1{
+.Produto1 {
     width: 276px;
     height: 321px;
     border-radius: 10px;
     background: #C0B5DE;
 }
 
-#primeiro{
-    margin: 371px 46px 0px 52px;
+#primeiro {
+    margin: 120px 46px 0px 52px;
 }
 
-.cadeadoRoxo{
+.cadeadoRoxo {
     width: 11.55%;
     padding: 48px 11.91% 28px 10.83%;
 }
 
-.textBanner1{
-font-size: 10px;
-line-height: 14.699px;
-opacity: 0.8;
+.textBanner1 {
+    font-size: 10px;
+    line-height: 14.699px;
+    opacity: 0.8;
 }
 
-.textBanner2{
+.textBanner2 {
 
-font-size: 14px;
-line-height: 14.699px;
+    font-size: 14px;
+    line-height: 14.699px;
 }
 
-.textsBanner{
+.textsBanner {
     padding-top: 13.36px;
 }
-.fundoProduto{
+
+.fundoProduto {
     height: 333px;
     width: 66.24%;
     margin: -225px 0px 0px 0px;
 }
-.posicaoBanner{
+
+.posicaoBanner {
     display: flex;
 }
-.LinhaCurology{
-margin-top: -216px;
-height: 208px;
+
+.LinhaCurology {
+    margin-top: -213px;
+    margin-left: 9px;
+    margin-right: 40px;
+    height: 208px;
 }
-.posicaoCurology3{
+
+.posicaoCurology3 {
     display: flex;
     height: 235px;
     width: 62.66%;
     margin: 0px 4.53% 0px 19%;
 }
-.teste{
+
+.teste {
     display: flex;
 }
 
- #PrimeiroTexto{
+#PrimeiroTexto {
     width: 75.45%;
     padding: 0px 13.71% 0px 10.83%;
     font-size: 20px;
     line-height: 28px;
 }
 
-#PrimeiroPreco{
+#PrimeiroPreco {
     font-size: 36px;
-    line-height: 28px; 
+    line-height: 28px;
     padding: 26px 54.15% 38px 10.83%;
 }
 
-.buttonBuyMe{
+.buttonBuyMe {
     margin: 0px 57.03% 35px 10.83%;
     width: 89px;
     height: 32px;
@@ -331,353 +366,356 @@ height: 208px;
     background: #FFBB47;
 }
 
-.textBuyMe{
+.textBuyMe {
     width: 45px;
     height: 28px;
     padding: 2px 22px 2px 22px;
 }
 
-#segundo{
+#segundo {
     margin: 278px 46px 0px 55px;
 }
 
-#SegundoTexto{
-    width:79.78%;
+#SegundoTexto {
+    width: 79.78%;
     height: 56px;
     font-size: 20px;
-    padding: 0px 11.19% 0px 9.02% ;
+    padding: 0px 11.19% 0px 9.02%;
 }
 
-#terceiro{
-    margin:290px 12.26% 136px 13.33%;
+#terceiro {
+    margin: 290px 12.26% 136px 13.33%;
 }
 
-.Cor2{
-margin-top:1000px ;
-height: 1268px;
-width: 100%;
-border-radius: 10px;
-background-color: #6E59A4;
+.Cor2 {
+    margin-top: 1000px;
+    height: 1268px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #6E59A4;
 }
 
-.TituloTextos{
+.TituloTextos {
     padding: 53px 24.8% 0px 6.93%;
     color: #FFF;
     width: 67.56%;
     font-family: fonde;
     font-size: 36px;
     font-weight: 600;
-    line-height: 48px; 
+    line-height: 48px;
     letter-spacing: 1.8px;
 }
 
-.Separacao{
+.Separacao {
     display: flex;
-    gap:25.75px;
-    margin: 36px 0px 0px 26px ;
+    gap: 25.75px;
+    margin: 36px 0px 0px 26px;
 }
 
-#Certo1{
+#Certo1 {
     padding-bottom: 30px;
 }
 
-#Certo2{
+#Certo2 {
     height: 16px;
     margin-top: 5px;
 }
 
-.SubTituloTopicos{
+.SubTituloTopicos {
     font-size: 16px;
     font-weight: 700;
-    line-height: 28px; 
+    line-height: 28px;
 }
-#Sub1{
+
+#Sub1 {
     width: 67.13%;
 }
 
-.TextoTopicos{
+.TextoTopicos {
     margin: 16px 82px 30px 68px;
     font-size: 14px;
     width: 60%;
-    line-height: 26px; 
+    line-height: 26px;
     opacity: 0.6;
 }
 
 
 
-.Separacao2{
+.Separacao2 {
     display: flex;
     gap: 25.75px;
 }
 
-#Sub2{
+#Sub2 {
     width: 59.49%;
-    
+
 }
 
-#TextTop3{
-    width:68.53%;
+#TextTop3 {
+    width: 68.53%;
 }
 
-#Sub4{
+#Sub4 {
     width: 59.2%;
 }
 
-#Titulo2{
+#Titulo2 {
     margin-bottom: 16px;
 }
-#text5{
+
+#text5 {
     width: 88.53%;
     margin: 0px 4.53% 0px 6.93%;
 }
 
-#botao2{
+#botao2 {
     margin: 30px 54.4% 0px 6.93%;
 }
 
-.ProdutoFoto3{
-    width:77.6%;
+.ProdutoFoto3 {
+    width: 77.6%;
     padding: 15.2px 15.12% 0px 7.2%;
 }
 
-#Titulo3{
+#Titulo3 {
     margin: 120px 11.46% 0px 5.86%;
 }
 
-#text6{
+#text6 {
     width: 91.73%;
     margin: 16px 5.06% 0px 5.86%;
 }
 
-.imagem2{
+.imagem2 {
     width: 36%;
     height: 28%;
-    
+
 }
 
-.imagem1{
+.imagem1 {
     width: 36%;
     height: 28%;
     margin-left: 14%;
 }
 
-.imagensSecao6{
+.imagensSecao6 {
     display: flex;
-    gap:15px;
+    gap: 15px;
     margin-top: 62px;
 }
 
-.imagem3{
+.imagem3 {
     margin: 16.26% 1.6% 0px 6.93%;
     width: 91.46%;
     height: 97.33%;
 }
 
-#Titulo4{
+#Titulo4 {
     margin: 71.45px 0px 0px 6.66%;
 }
 
-#text7{
+#text7 {
     margin: 16px 4.8% 0px 6.66%;
 }
 
 
-.topicoWrap1{
+.topicoWrap1 {
     display: flex;
     gap: 18px;
 }
 
-.topicoWrap2{
+.topicoWrap2 {
     display: flex;
     gap: 18px;
 }
 
-.LinhaWrap{
+.LinhaWrap {
     display: flex;
     gap: 34px;
     margin-bottom: 16px;
 }
 
-#LinhaWrap2{
+#LinhaWrap2 {
     gap: 30px;
 }
 
-#LinhaWrap3{
+#LinhaWrap3 {
     gap: 38px;
 }
 
-.TopicosWrap{
+.TopicosWrap {
     margin: 16px 21.06% 0px 6.66%;
 }
 
-.imagemSecao7{
+.imagemSecao7 {
     width: 96.26%;
     margin: 76px 4% 0px 4%;
 }
 
-.quadradoRoxo5{
+.quadradoRoxo5 {
     margin: -10px 6.13% 0px 85.86%;
     width: 100px;
-    height:100px;
+    height: 100px;
     border-radius: 5px;
     background: #C0B5DE;
 }
 
-#Titulo5{
+#Titulo5 {
     margin: 76px 8.66% 0px 6.66%;
 }
 
-#text8{
+#text8 {
     margin: 23px 7.73% 0px 11.73%;
 }
 
-#text9{
+#text9 {
     margin: 16px 40.8% 0px 6.66%;
 }
 
-.Bolas{
+.Bolas {
     margin: 18px 80.26% 0px 6.66%;
 }
 
-.FotoSecao8{
+.FotoSecao8 {
     margin-top: -20px;
     width: 100%;
     margin-bottom: 84.77px;
 }
 
-footer{
+footer {
     background-color: #19183A;
     width: 100%;
     font-family: Poppins;
     color: #FFF;
 }
 
-.LogoFooter{
+.LogoFooter {
     margin: 50px 59.2% 16px 6.66%;
 }
 
-.textFooter{
-font-size: 14px;
-line-height: 26px;
-opacity: 0.5;
+.textFooter {
+    font-size: 14px;
+    line-height: 26px;
+    opacity: 0.5;
 }
 
-#textFooter1{
+#textFooter1 {
     margin: 0px 9.6% 16px 6.66%;
 }
 
-.TittleFooter{
+.TittleFooter {
     margin-bottom: 16px;
     font-size: 14px;
     font-weight: 700;
 }
 
-.footer2{
+.footer2 {
     display: flex;
     gap: 72px;
     margin: 0px 10.4% 30px 6.4%;
 }
 
-.SubFooter{
+.SubFooter {
     font-size: 14px;
     opacity: 0.8;
 }
 
-.textList{
+.textList {
     font-size: 14px;
     opacity: 0.3;
 }
 
-.productSection{
+.productSection {
     display: flex;
     flex-direction: column;
 }
 
-#textList4{
+#textList4 {
     margin-bottom: 16px;
 }
 
-#textList5{
+#textList5 {
     margin-bottom: 36px
 }
 
-#textList6{
+#textList6 {
     margin-bottom: 23px;
 }
 
-#TittleFooter4{
+#TittleFooter4 {
     margin-bottom: 16px;
 }
 
-.TextSubscribe{
+.TextSubscribe {
     font-size: 14px;
 }
 
-.Email{
+.Email {
     width: 203px;
     height: 46px;
     border-radius: 30px;
     background: #FFF;
 }
 
-.TextEmail{
+.TextEmail {
     color: #000;
     font-size: 14px;
     opacity: 0.3;
     padding: 13px 84px 12px 20px;
 }
 
-.Join{
+.Join {
     width: 110px;
     height: 46px;
     background: #FFBB47;
     border-radius: 30px;
 }
 
-#TextJoin{
+#TextJoin {
     padding: 13px 40px 12px 41px;
 }
 
-.Buttons{
+.Buttons {
     display: flex;
     gap: 16px;
     margin-top: 16px;
 }
 
-.footer3{
+.footer3 {
     margin: 0px 5.6% 38px 6.66%;
 }
 
-.LinhaFooter{
+.LinhaFooter {
     width: 94.4%;
     margin: 0px 2.93% 16px 2.93%;
 }
 
-.CurologyBanner{
+.CurologyBanner {
     width: 172px;
     height: 60px;
     border-radius: 6.681px;
     background: #FFBB47;
-    position: relative;   
+    position: relative;
 }
 
-.cadeadoBanner{
+.cadeadoBanner {
     width: 28px;
     height: 28px;
-    padding: 15.37px 12.46% 0px 9.70% ;
+    padding: 15.37px 12.46% 0px 9.70%;
 }
 
-#banner1{
-    margin: 67px 51.73% -63px 2.4%; 
+#banner1 {
+    margin: 67px 51.73% -63px 3.8%;
 }
 
-#banner2{
+#banner2 {
     margin: -40px ;
 }
-.Referencias{
-font-size: 10px;
-letter-spacing: 0.2px;
-opacity: 0.5;
-margin: 0px 25.33% 0px 25.33%;
-padding-bottom: 20px;
+
+.Referencias {
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    opacity: 0.5;
+    margin: 0px 25.33% 0px 25.33%;
+    padding-bottom: 20px;
 }
