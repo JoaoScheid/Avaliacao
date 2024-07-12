@@ -184,6 +184,19 @@ section {
     margin: 30px 0px 0px 181px;
 }
 
+.LinhaTracejada3{
+    position: relative;
+    margin: 0px 46.66%  -215px 36.33%;
+}
+
+.QuadradoRoxo3{
+    position: relative;
+    width: 33px;
+    height: 33px;
+    border-radius: 5px;
+    background: #C0B5DE;
+    margin: -75px 11.2% 0px 80%;
+}
 .bannerLinha{
     position: relative;
     margin: 0px 39.73% -230px 0%;
@@ -309,6 +322,14 @@ section {
 
     font-size: 14px;
     line-height: 14.699px;
+}
+
+.quadradoAmarelo{
+    width: 33px;
+    height: 33px;
+    border-radius: 5px;
+    background: #FFBB47;
+    margin:-10px 0px 0px 25px ;
 }
 
 .textsBanner {
@@ -502,6 +523,10 @@ section {
     display: flex;
     gap: 15px;
     margin-top: 62px;
+}
+
+#banner3{
+    margin: 0px 1.86% -92px 52.26%;
 }
 
 .imagem3 {
