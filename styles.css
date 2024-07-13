@@ -247,10 +247,7 @@ section {
     display: flex;
 }
 
-.secao2 {
-    display: flex;
-    margin: 23px px 0px 0px;
-}
+
 
 
 .tituloInformacoes {
@@ -756,8 +753,79 @@ footer {
     padding-bottom: 20px;
 }
 
+.footer5{
+    display: none;
+}
+
+
 @media(min-width:1440px){
     footer{
+        
+        height: 530px;
+    }
+
+    #textFooter1{
+        width: 360px;
+    }
+
+    .posicao-footer{
         flex-direction: row;
     }
+
+    .footer2{
+        margin: 75px 0px -100px 0px;
+    }
+
+    .footer1{
+        margin-left: 83px;
+    }
+
+    .footer3{
+        margin-left: -130px;
+    }
+
+    .footer5{
+        display: block;
+    }
+
+    #TittleFooter4{
+        display: none;
+    }
+
+    #TittleFooter5{
+        margin-top: 75px;
+    }
+
+    #TittleFooter6{
+        margin-top: 30px ;
+    }
+
+    #rede-social1{
+        display: none;
+    }
+
+    .gap{
+        display: flex;
+        gap:203px
+    }
+
+    .Email{
+        margin-top: 15px;
+        width: 269px;
+    }
+
+    .LinhaFooter2{
+        display: flex;
+        width: 90.27%;
+        margin: 50px 70px 0px 70px;
+        
+    }
+    .Join{
+        margin-top: 15px;
+    }
+
+    .footer4{
+        display: none;
+    }
+  
 }
