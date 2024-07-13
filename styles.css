@@ -621,6 +621,8 @@ footer {
     width: 100%;
     font-family: Poppins;
     color: #FFF;
+    display: flex;
+    flex-direction: column;
 }
 
 .LogoFooter {
@@ -752,4 +754,10 @@ footer {
     opacity: 0.5;
     margin: 0px 25.33% 0px 25.33%;
     padding-bottom: 20px;
+}
+
+@media(min-width:1440px){
+    footer{
+        flex-direction: row;
+    }
 }
