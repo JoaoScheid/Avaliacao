@@ -195,7 +195,7 @@ section {
     height: 33px;
     border-radius: 5px;
     background: #C0B5DE;
-    margin: -75px 11.2% 0px 80%;
+    margin: -27px 11.2% 0px 80%;
 }
 .bannerLinha{
     position: relative;
@@ -224,7 +224,7 @@ section {
 
 .ImageProduto2 {
     width: 93.33%;
-    margin: 0px 0% 0px 4.4%;
+    margin: 0px 24.87px 0px 21.13px;
 }
 
 .linha1 {
@@ -409,7 +409,7 @@ section {
 }
 
 .Cor2 {
-    margin-top: 1000px;
+    margin-top: 1050px;
     height: 1268px;
     width: 100%;
     border-radius: 10px;
@@ -460,8 +460,17 @@ section {
     opacity: 0.6;
 }
 
+.foto-produto-4{
+    margin: 0px 7.53% 0px 7.2%;
+}
 
+#banner4{
+    margin: -50px 52.53% 0px 1.6%;
+}
 
+.linha-tracejada-5{
+    margin: -50     px 33.86% 0px 47.7%;
+}
 .Separacao2 {
     display: flex;
     gap: 25.75px;
