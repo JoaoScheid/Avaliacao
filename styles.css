@@ -14,7 +14,7 @@
     --secondary-color: #FFBB47;
 }
 
-.Cor {
+.cor {
     height: 2830px;
     background-color: #FFF9F5;
 }
@@ -48,7 +48,7 @@ section {
     align-items: center;
 }
 
-.Titulo {
+.titulo {
     color: #19183A;
     -webkit-text-stroke-width: 1;
     -webkit-text-stroke-color: #19183A;
@@ -59,7 +59,7 @@ section {
     letter-spacing: 1.8px;
 }
 
-#Titulo1 {
+#titulo-1 {
     margin: 69px 25.06% 16px 6.93%;
     width: 68%;
 }
@@ -74,7 +74,7 @@ section {
     opacity: 0.5;
 }
 
-#text1 {
+#text-1 {
 
     margin: 0px 12.5% 30px 7.46%;
 
@@ -91,7 +91,7 @@ section {
     border-radius: 30px;
 }
 
-.PrimeiraImagem {
+.primeira-imagem {
     width: 100%;
     margin-bottom: 100px;
     z-index: 1;
@@ -99,7 +99,7 @@ section {
     height: 426px;
 }
 
-.quadradoRoxo {
+.quadrado-roxo {
     width: 157px;
     height: 147px;
     border-radius: 10px;
@@ -109,16 +109,16 @@ section {
     z-index: 3;
 }
 
-.textQuadradoRoxo2 {
+.text-quadrado-roxo-2 {
     font-size: 20px;
 }
 
-.textQuadradoRoxo {
+.text-quadrado-roxo-1 {
     font-size: 14px;
     opacity: 0.5;
 }
 
-.BolaCadeado {
+.bola-cadeado {
     padding-top: 22px;
 }
 
@@ -126,11 +126,11 @@ section {
     margin: 0px 28.66% 0px 14.01%;
 }
 
-#botao1 {
+#botao-1 {
     margin: 0px 53.8% 0px 7.46%;
 }
 
-.LinhaTracejada {
+.linha-tracejada {
     position: relative;
     z-index: 2;
     width: 30.26%;
@@ -138,7 +138,7 @@ section {
     margin: 0px 1% -235px 27.4%;
 }
 
-.InfoRoxa {
+.info-roxa {
     width: 91.73%;
     position: relative;
     z-index: 4;
@@ -148,12 +148,12 @@ section {
     margin: -220px 4.26% 0px 4.26%;
 }
 
-.secao1Info {
+.secao-info-1 {
     display: flex;
     gap: 16px;
 }
 
-.textInfo {
+.text-info {
     color: #FFF;
     font-size: 12px;
     line-height: 22px;
@@ -165,7 +165,7 @@ section {
     height: 52px;
 }
 
-.TituloInfoRoxa {
+.titulo-info-roxa {
     color: #FFF;
     -webkit-text-stroke-width: 0.30000001192092896;
     -webkit-text-stroke-color: #000;
@@ -174,7 +174,7 @@ section {
     letter-spacing: 0.22px;
 }
 
-.text2 {
+.text-2 {
     font-size: 14px;
     padding: 15px 15px 15px 20px;
 }
@@ -226,18 +226,18 @@ section {
     margin: 0px 24.87px 0px 21.13px;
 }
 
-.linha1 {
+.linha-1 {
     display: flex;
     gap: 30px;
 }
 
-.linha2 {
+.linha-2 {
     display: flex;
     gap: 22px;
     margin-top: 19px;
 }
 
-.posInfoRoxa {
+.pos-info-roxa {
     justify-content: center;
     padding: 35px 8.72% 0px 8.72%;
 }
@@ -774,7 +774,7 @@ footer {
     display: none;
 }
 
-@media(min-width:1440px){
+@media(min-width:1024px){
     footer{   
         height: 530px;
     }
@@ -784,6 +784,9 @@ footer {
         line-height: 36px;
     }
 
+    .LogoFooter{
+        margin-left: 0px;
+    }
     .Titulo{
     -webkit-text-stroke-width: 1;
     -webkit-text-stroke-color: #19183A;
@@ -794,6 +797,7 @@ footer {
 
     #textFooter1{
         width: 360px;
+        margin-left: 0px;
     }
 
     .posicao-footer{
@@ -908,6 +912,7 @@ footer {
         display: flex;
         background-color: #FFF9F5;
         margin-bottom: 180px;
+        width: 100%;
     }
 
     .secao7-parte2{
@@ -948,5 +953,21 @@ footer {
     .produtos{
         display: flex;
         flex: row;
+    }
+
+    .secao6{
+        display: flex;
+    }
+
+    .imagem1{
+        width: 38.8%;
+    }
+    .imagem2{
+        width: 38.8%;
+    }
+
+    .secao5{
+        display: flex;
+        flex-direction: row-reverse;
     }
 }
