@@ -246,16 +246,6 @@ section {
     display: flex;
 }
 
-
-
-
-.tituloInformacoes {
-    color: #FFF;
-    font-size: 22px;
-    line-height: 36px;
-    letter-spacing: 0.22px;
-}
-
 #titulo1 {
     padding: 32px 56.68% 0px 0px;
 }
@@ -276,12 +266,6 @@ section {
 .Imagem-2{
     width: 95.1%;
     margin: 75px 2.28% 180px 2.66%;
-}
-
-.Produto2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 
@@ -504,10 +488,6 @@ section {
     margin: 30px 54.4% 0px 6.93%;
 }
 
-.ProdutoFoto3 {
-    width: 77.6%;
-    padding: 15.2px 15.12% 0px 7.2%;
-}
 
 #titulo-3 {
     margin: 120px 11.46% 0px 5.86%;
@@ -592,13 +572,6 @@ section {
     margin: 48px 4% 0px 4%;
 }
 
-.quadradoRoxo5 {
-    margin: -10px 6.13% 0px 85.86%;
-    width: 100px;
-    height: 100px;
-    border-radius: 5px;
-    background: #C0B5DE;
-}
 
 #titulo-5 {
     margin: 66px 8.66% 0px 6.66%;
@@ -661,12 +634,12 @@ footer {
     margin: 0px 10.4% 30px 6.4%;
 }
 
-.SubFooter {
+.sub-footer {
     font-size: 14px;
     opacity: 0.8;
 }
 
-.textList {
+.text-list {
     font-size: 14px;
     opacity: 0.3;
 }
@@ -676,52 +649,52 @@ footer {
     flex-direction: column;
 }
 
-#textList4 {
+#text-list4 {
     margin-bottom: 16px;
 }
 
-#textList5 {
+#text-list5 {
     margin-bottom: 36px
 }
 
-#textList6 {
+#text-list6 {
     margin-bottom: 23px;
 }
 
-#TittleFooter4 {
+#tittle-footer4 {
     margin-bottom: 16px;
 }
 
-.TextSubscribe {
+.text-subscribe {
     font-size: 14px;
 }
 
-.Email {
+.email {
     width: 203px;
     height: 46px;
     border-radius: 30px;
     background: #FFF;
 }
 
-.TextEmail {
+.text-email {
     color: #000;
     font-size: 14px;
     opacity: 0.3;
     padding: 13px 84px 12px 20px;
 }
 
-.Join {
+.join {
     width: 110px;
     height: 46px;
     background: #FFBB47;
     border-radius: 30px;
 }
 
-#TextJoin {
+#text-join {
     padding: 13px 40px 12px 41px;
 }
 
-.Buttons {
+.buttons {
     display: flex;
     gap: 16px;
     margin-top: 16px;
@@ -731,24 +704,11 @@ footer {
     margin: 0px 5.6% 38px 6.66%;
 }
 
-.LinhaFooter {
+.linha-footer {
     width: 94.4%;
     margin: 0px 2.93% 16px 2.93%;
 }
 
-.CurologyBanner {
-    width: 172px;
-    height: 60px;
-    border-radius: 6.681px;
-    background: #FFBB47;
-    position: relative;
-}
-
-.cadeadoBanner {
-    width: 28px;
-    height: 28px;
-    padding: 15.37px 12.46% 0px 9.70%;
-}
 
 #banner1 {
     margin: 67px 51.73% -63px 3.8%;
@@ -758,7 +718,7 @@ footer {
     margin: -40px ;
 }
 
-.Referencias {
+.referencias {
     font-size: 10px;
     letter-spacing: 0.2px;
     opacity: 0.5;
@@ -784,10 +744,10 @@ footer {
         line-height: 36px;
     }
 
-    .LogoFooter{
+    .logo-footer{
         margin-left: 0px;
     }
-    .Titulo{
+    .titulo{
     -webkit-text-stroke-width: 1;
     -webkit-text-stroke-color: #19183A;
     font-size: 52px;
@@ -821,15 +781,15 @@ footer {
         display: block  ;
     }
 
-    #TittleFooter4{
+    #tittle-footer4{
         display: none;
     }
 
-    #TittleFooter5{
+    #tittle-footer5{
         margin-top: 75px;
     }
 
-    #TittleFooter6{
+    #tittle-footer6{
         margin-top: 30px ;
     }
 
@@ -842,18 +802,18 @@ footer {
         gap:203px
     }
 
-    .Email{
+    .email{
         margin-top: 15px;
         width: 269px;
     }
 
-    .LinhaFooter2{
+    .linha-footer2{
         display: flex;
         width: 90.27%;
         margin: 0px 70px 0px 70px;
         
     }
-    .Join{
+    .join{
         margin-top: 15px;
     }
 
@@ -861,8 +821,8 @@ footer {
         display: none;
     }
 
-    .Referencias2{
-        display: flex;
+    .referencias2{
+    display: flex;
     font-size: 14px;
     letter-spacing: 0.28px;
     opacity: 0.5;
@@ -884,7 +844,7 @@ footer {
         font-weight: 500;
     }
 
-    .FotoSecao8{
+    .foto-secao8{
         width: 628px;
         margin: -50px 0px 0px 0px;
     }
@@ -919,7 +879,7 @@ footer {
         margin-top: 50px;
     }
 
-    #Titulo4{
+    #titulo-4{
         width: 80%;
         margin-left: 0px;
     }
@@ -929,7 +889,7 @@ footer {
         margin: 0px;
     }
 
-    .TopicosWrap{
+    .topicos-rap{
         margin-left: 0px;
         font-size: 16px;
     }
