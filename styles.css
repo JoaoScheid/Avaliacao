@@ -755,7 +755,7 @@ footer {
     letter-spacing: 2.6px;
     }
 
-    #textFooter1{
+    #text-footer1{
         width: 360px;
         margin-left: 0px;
     }
@@ -832,11 +832,11 @@ footer {
 
     .secao-8{
         flex-direction: row;
-        gap: 120px;
+        gap: 170px;
         margin-bottom: 108px;
     }
 
-    #text8{
+    #text-8{
         margin: 15px 0px  0px 9%;
         width: 561px;
         font-size: 26px;
@@ -846,7 +846,7 @@ footer {
 
     .foto-secao8{
         width: 628px;
-        margin: -50px 0px 0px 0px;
+        margin: -50px -200px 0px 0px;
     }
 
     #text9{
@@ -884,7 +884,7 @@ footer {
         margin-left: 0px;
     }
 
-    #text7{
+    #text-7{
         width: 80%;
         margin: 0px;
     }
