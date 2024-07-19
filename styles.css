@@ -930,4 +930,26 @@ footer {
         display: flex;
         flex-direction: row-reverse;
     }
+
+    .cor-2{
+        width: 85.90%;
+        height: 698px;
+    }
+
+    .primeiros{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .titulo-textos{
+        width: 50.84%;
+        font-size: 52px;
+        line-height: 64px; 
+        letter-spacing: 2.6px;
+        margin: ;
+    }
+
+    .foto-produto-4{
+        display: none;
+    }
 }
