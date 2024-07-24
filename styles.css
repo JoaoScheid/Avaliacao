@@ -446,7 +446,7 @@ section {
 }
 
 .foto-produto-4{
-    margin: 0px 7.53% 0px 7.2%;
+    margin: -20px 7.53% 0px 7.2%;
 }
 
 .imagem-produto-5{
@@ -569,7 +569,7 @@ section {
 
 .imagem-secao7 {
     width: 96.26%;
-    margin: 48px 4% 0px 4%;
+    margin: 48px 2% 0px 2%;
 }
 
 
@@ -735,6 +735,18 @@ footer {
 }
 
 .foto-produto-5-2{
+    display: none;
+}
+
+.imagem-produto5-2{
+    display: none;
+}
+
+.Imagem-2-2{
+    display: none;
+}
+
+.foto-produto-4-2{
     display: none;
 }
 
@@ -916,8 +928,7 @@ footer {
     }
 
     .produtos{
-        display: flex;
-        flex: row;
+        display:none
     }
 
     .secao-6{
@@ -940,18 +951,22 @@ footer {
     .cor-2{
         width: 85.90%;
         height: 698px;
+        margin-top: 0px;
     }
 
     .primeiros{
         display: flex;
-        flex-wrap: wrap;
+        margin-left: 100px;
     }
 
     .titulo-textos{
-        width: 50.84%;
+        width: 70.84%;
         font-size: 52px;
         line-height: 64px; 
         letter-spacing: 2.6px;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: 70px;
     }
 
     .foto-produto-4{
@@ -983,5 +998,164 @@ footer {
 
     .secao6-1{
         margin-left: 20px;
+    }
+
+    .imagem-produto-5{
+        display: none;
+    }
+
+    .imagem-produto5-2{
+        display: block;
+        margin: 80px 0px 0px 4.33%;
+    }
+
+    .secao-5 #titulo-2{
+        margin-top: 160px ;
+    }
+
+    #text-5{
+        width: 65%;
+    }
+
+    #sub-1{
+        width: 35%;
+    }
+
+    #sub-2{
+        width: 45%;
+    }
+    
+    #sub-3{
+        width: 25%;
+    }
+
+    #sub-4{
+        width: 45%;
+    }
+
+    .texto-topicos{
+        width: 35%;
+    }
+
+    #text-top-3{
+        width: 35%;
+    }
+
+    #topico-2{
+      margin-left: -250px;
+    }
+
+    #topico-4{
+        margin-left: -220px;
+      }
+
+    .segundos{
+        margin-top: -25px;
+        margin-left: 35px;
+        display: flex;
+    }
+
+    .quadrado-amarelo{
+        display: none;
+    }
+
+    .cor-2{
+        display: flex;
+    }
+
+    .foto-produto-4-2{
+        display: block;
+        margin:35px -170px 0px 0px ;
+        height: 638px;
+    }
+
+    .cor-2-1{
+        margin: 40px -30px 0px 0px;
+    }
+
+    .Imagem-2{
+        display: none;
+    }
+
+    .Imagem-2-2{
+        display: block;
+        order: -1;
+        width: 65%;
+    }
+
+    .segunda{
+        display: flex;
+    }
+
+    .quadrado-roxo-4{
+        width: 33px;
+        height: 33px;
+        border-radius: 5px;
+        background: #C0B5DE;
+        margin-top: 85px;
+        margin-left: 75px;
+    }
+
+    .quadrado-titulo{
+        display: flex;
+    }
+
+    .quadrado-amarelo-2{
+    width: 39.71px;
+    height: 33px;
+    border-radius: 5px;
+    background: #FFBB47;
+    margin-top: 135px;
+    margin-left: 31px;
+    }
+  
+    .quadrado-segundos{
+        display: flex;
+    }
+
+    #certo-1{
+        padding-bottom: 40px;
+    }
+
+    #certo-2{
+        margin-top: 0px;
+        padding-bottom: 50px;
+    }
+
+    #certo-3{
+        margin-top: 0px;
+        padding-bottom: 50px;
+    }
+
+    #certo-4{
+        margin-top: 0px;
+        padding-bottom: 50px;
+    }
+
+    #titulo-2{
+        margin-top: 65px;
+        width: 70%;
+    }
+
+    #text-4{
+        margin-top: 0px;
+        width: 65%;
+    }
+
+    .segunda{
+        margin-top: 75px;
+    }
+
+    .Imagem-2-2{
+        margin-left:2.7%;
+    }
+
+    .pos-info-roxa{
+        display: flex;
+    }
+
+    .info-roxa{
+        width: 90%;
+        height: 128px;
     }
 }
