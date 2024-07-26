@@ -852,21 +852,19 @@ footer {
 
     .secao-8{
         flex-direction: row;
-        gap: 170px;
         margin-bottom: 108px;
     }
 
     #text-8{
         margin: 15px 0px  0px 9%;
-        width: 561px;
+        width:75%;
         font-size: 26px;
         line-height: 38px;
         font-weight: 500;
     }
 
     .foto-secao8{
-        width: 628px;
-        margin: -50px 0px 0px -35px;
+        display: none;
     }
 
     #text9{
@@ -1164,7 +1162,7 @@ footer {
     .info-roxa{
         width: 82.223%;
         height: 168px;
-        margin: 0px 8.9% 0px 8.9%;
+        margin: -90px 8.9% 0px 8.9%;
     }
 
     .bola{
@@ -1254,9 +1252,53 @@ line-height: 22px;
         margin: 35px 72.8% 0px 11.5%;
     }
 
-    .cor{
+
+    .secao-7{
         width: 100%;
     }
+
+    html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    .cor, .secao-7{
+        width: 100%;
+    }
+
+   
+    .foto-secao8-2{
+        margin: -50px 45px 0px 0px;
+    }
+
+    #text-9{
+        font-size: 16px;
+        margin-right: 0px;
+        width: 50%;
+    }
+
+    #titulo-5{
+        margin-right: 0px;
+        width: 60%;
+    }
+
+    .topicos-wrap{
+        margin-left: 0px;
+    }
+
+    nav{
+        color: #19183A;
+        font-size: 14px;
+        display: flex;
+        gap: 41px;
+    }
+
+    .head{
+        display: block;
+    }
+
 
    
 }
