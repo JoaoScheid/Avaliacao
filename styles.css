@@ -750,6 +750,10 @@ footer {
     display: none;
 }
 
+.primeira-imagem-2{
+    display: none;
+}
+
 @media(min-width:1024px){
     footer{   
         height: 530px;
@@ -1152,10 +1156,107 @@ footer {
 
     .pos-info-roxa{
         display: flex;
+        padding-top: 48px;
+        gap: 113px;
+        padding: 48px 8% 0px 8% ;
     }
 
     .info-roxa{
-        width: 90%;
-        height: 128px;
+        width: 82.223%;
+        height: 168px;
+        margin: 0px 8.9% 0px 8.9%;
     }
+
+    .bola{
+        width: 72px;
+        height: 72px;
+    }
+
+    .titulo-info-roxa{
+-webkit-text-stroke-width: 0.30000001192092896;
+-webkit-text-stroke-color: #000;
+font-size: 32px;
+line-height: 36px; 
+letter-spacing: 0.32px;
+    }
+
+    .text-info{
+font-size: 16px;
+line-height: 22px;
+    }
+
+    .textos{
+        margin-left: 10%;
+        margin-top: 10px;
+    }
+    
+    .linha-2{
+        display: flex;
+        margin-top: 0px;
+        gap: 110px;
+    }
+
+    .linha-1{
+        display: flex;
+        margin-top: 0px;
+        gap: 110px;
+    }
+
+    .quadrado-roxo{
+        display:none;
+    }
+
+    .linha-tracejada{
+        display: none;
+    }
+
+    .hamburguer{
+        display: none;
+    }
+
+    .secao-1{
+        display: flex;
+    }
+
+    .logo{
+        width: 21.61%;
+    }
+
+    .primeira-imagem{
+        display: none;
+    }
+
+    .primeira-imagem-2{
+        display: block;
+    }
+
+    #titulo-1{
+      display: none;
+    }
+
+    .titulo-media{
+    color: #19183A;
+    font-family: fonde;
+    font-size: 72px;
+    line-height: 86px; 
+    font-weight: 800;
+    letter-spacing: 3.6px;
+    width: 80%;
+    margin: 112px 9% 16px 11.5%;
+    }
+
+    #text-1{
+        width: 73%;
+        margin: 0px 18% 0px 11.5%;
+    }
+
+    #botao-1{
+        margin: 35px 72.8% 0px 11.5%;
+    }
+
+    .cor{
+        width: 100%;
+    }
+
+   
 }
