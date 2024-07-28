@@ -12,3 +12,9 @@ de tela, sendo necessário o uso da técnica do mobile first, que traz a ideia d
 <h2>Como executar o site</h2>
 <p>1-Para começar você deve acessar o meu código pelo github e baixar o arquivo zip</p>
 <img src="/Imagens/passo1.png">
+<p>2-Entre no visualstudio, selecione a opção file no canto superior esquerdo, open folder e selecione o arquivo baixado</p>
+<img src="/Imagens/passo2.png">
+<p>3-Baixe a extensão live server</p>
+<img src="/Imagens/passo3.png">
+<p>4-Por fim aperte a opção live server que ira aparecer após baixar o live server, dessa forma o site vai abrir no seu navegador padrão</p>
+<img src="/Imagens/passo4.png">
