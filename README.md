@@ -18,3 +18,9 @@ de tela, sendo necessário o uso da técnica do mobile first, que traz a ideia d
 <img src="/Imagens/passo3.png">
 <p>4-Por fim aperte a opção live server que ira aparecer após baixar o live server, dessa forma o site vai abrir no seu navegador padrão</p>
 <img src="/Imagens/passo4.png">
+<h2>Tecnologias utilizadas</h2>
+<ul>
+<li>Figma</li>
+<li>Visual Studio Code</li>
+<li>Github</li>
+<ul>
