@@ -792,6 +792,8 @@ nav{
 #tittle-footer5{
     display: none;
 }
+
+
 @media(min-width:1024px){
     footer{   
         height: 510px;
@@ -936,7 +938,6 @@ nav{
         display: flex;
         background-color: #FFF9F5;
         margin-bottom: 180px;
-        width: 100%;
     }
 
     .secao7-parte2{
@@ -1206,6 +1207,9 @@ nav{
     }
 
     .info-roxa{
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
         width: 82.223%;
         height: 168px;
         margin: -90px 8.9% 0px 8.9%;
@@ -1301,9 +1305,7 @@ line-height: 22px;
     }
 
 
-    .secao-7{
-        width: 100%;
-    }
+   
 
     html, body {
         margin: 0;
@@ -1351,7 +1353,7 @@ line-height: 22px;
         position: absolute;
         z-index: 2;
         padding: 10px;
-        margin: 0px 0% 0px 58.3%;
+        margin: 0px 0% 0px 59%;
         margin-top: -2%;
     }
 
