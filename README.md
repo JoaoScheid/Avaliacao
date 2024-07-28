@@ -1,5 +1,5 @@
 <h1>Avaliação figma</h1>
-
+<h2>Sobre mim </h2>
 <h3>Aluno: João Pedro Scheid</h3>
 
  <img src="/Imagens/ImagemREADME.jpg" width="300" height="300">
