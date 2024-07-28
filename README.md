@@ -1,6 +1,6 @@
 <h1>Avaliação figma</h1>
 
-<h2>Aluno: João Pedro Scheid</h2>
+<h3>Aluno: João Pedro Scheid</h3>
 
  <img src="/Imagens/ImagemREADME.jpg" width="300" height="300">
 <p>Esse projeto consistia na criação de um site com base em um layout feito no figma e distribuido pelo professor Kristian, o site deve fiel ao passado por ele, com os mesmos espacamentos , cores e fontes deve ter uma boa responsividade para diferentes tamanhos
