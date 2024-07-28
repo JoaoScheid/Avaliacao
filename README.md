@@ -11,4 +11,4 @@ de tela, sendo necessário o uso da técnica do mobile first, que traz a ideia d
 
 <h2>Como executar o site</h2>
 <p>1-Para começar você deve acessar o meu código pelo github e baixar o arquivo zip</p>
-<img src="/Imagens/passo1.png" width="300" height="300">
+<img src="/Imagens/passo1.png" width="400" height="300">
