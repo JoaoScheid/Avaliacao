@@ -10,5 +10,5 @@
 de tela, sendo necessário o uso da técnica do mobile first, que traz a ideia da execução do site começar pelo mobile e depois fazer os outros tamanhos de tela. Além disso o site deve conter o uso de tags sêmanticas e boas práticas de organização e identação</p>
 
 <h2>Como executar o site</h2>
-<p>1-Para começar você deve acessar o meu código pelo github e baixar o arquivo zip
+<p>1-Para começar você deve acessar o meu código pelo github e baixar o arquivo zip</p>
 <img src="/Imagens/passo1.png" width="300" height="300">
