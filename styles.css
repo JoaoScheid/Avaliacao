@@ -1225,7 +1225,7 @@ nav {
         display: flex;
         padding-top: 48px;
         gap: 113px;
-        padding: 48px 8% 0px 8%;
+        padding: 48px 8% 0px 6%;
     }
 
     .info-roxa {
@@ -1302,6 +1302,9 @@ nav {
         width: 753px;
         margin-right: 0px;
     }
+
+    
+
 
     #titulo-1 {
         display: none;
