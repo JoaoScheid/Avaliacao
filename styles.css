@@ -809,6 +809,7 @@ nav{
 @media(min-width:1024px){
     footer{   
         height: 510px;
+        overflow: hidden;
     }
 
     #rede-social2{
